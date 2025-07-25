@@ -2,11 +2,18 @@
     margin: 0;
     padding: 0;
 }
-body{
 
-}
 .center {
+    position: absolute;
     top: 50%;
     left : 50%;
     transform: translate(-50%, -50%);
+}
+
+.circle {
+    position: absolute;
+    width: 30px;
+    height : 30px;
+    background: #262626;
+    border-radius : 50%;
 }
